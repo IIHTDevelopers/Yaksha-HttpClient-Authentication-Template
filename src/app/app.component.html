@@ -1,0 +1,11 @@
+<div class="app-container">
+    <nav *ngIf="!isLoggedIn()">
+        <a routerLink="/login">Login</a>
+    </nav>
+    <nav *ngIf="isLoggedIn()">
+        <a routerLink="/home">Home</a>
+        <br />
+        <a (click)="logout()">Logout</a>
+    </nav>
+    <router-outlet></router-outlet>
+</div>

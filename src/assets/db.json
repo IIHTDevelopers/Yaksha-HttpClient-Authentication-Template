@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "password1",
+      "email": "user1@example.com",
+      "token": "dummy-jwt-token-user1"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "password2",
+      "email": "user2@example.com",
+      "token": "dummy-jwt-token-user2"
+    },
+    {
+      "username": "user1@example.com",
+      "password": "password1",
+      "id": 3
+    },
+    {
+      "username": "user1@example.com",
+      "password": "password1",
+      "id": 4
+    },
+    {
+      "username": "user1@example.com",
+      "password": "password1",
+      "id": 5
+    }
+  ]
+}
